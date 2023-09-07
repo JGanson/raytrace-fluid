@@ -9,4 +9,5 @@ you can customized the scence by modifying the scene file
 # environment install:
 
 Setup cmake: https://github.com/JGanson/raytrace-fluid/blob/main/Instruction_cmake.pdf
+
 setup openGL: https://github.com/JGanson/raytrace-fluid/blob/main/Instruction_openGL.pdf
