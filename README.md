@@ -1,4 +1,5 @@
 # Ray Traced Fluid project, done by An & James
+![alt text](./assets/index.png?raw=true)
 ## Paper Attach in the repository: https://github.com/JGanson/raytrace-fluid/blob/main/Raytraced_Fluids_Paper.pdf
 
 # How to run:
