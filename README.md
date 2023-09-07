@@ -1,6 +1,6 @@
 Ray Traced Fluid project, done by An & James
 
-Can find the paper in repository
+Paper Attach in the repository: https://github.com/JGanson/raytrace-fluid/blob/main/Raytraced_Fluids_Paper.pdf
 
 Example command:
 ./render --input ../assets/fluid-large.scene
