@@ -1,9 +1,8 @@
-# Fluid Renderer
+Ray Traced Fluid project, done by An & James
 
-structure:
-'./assets': contain all obj and shaders
-'./fluid': fluid part code
-'./ray': contain raytracing part code
-'./opengl': all the opengl agent render stuff
-'./includes': some unknown files(for mac?), and other library
-'./': main code, and some helper class may used in both fluid and ray tracing
+Can find the paper in repository
+
+Example command:
+./render --input ../assets/fluid-large.scene
+
+you can customized the scence by modifying  the scene file
