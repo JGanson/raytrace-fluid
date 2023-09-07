@@ -1,8 +1,11 @@
-Ray Traced Fluid project, done by An & James
+# Ray Traced Fluid project, done by An & James
+## Paper Attach in the repository: https://github.com/JGanson/raytrace-fluid/blob/main/Raytraced_Fluids_Paper.pdf
 
-Paper Attach in the repository: https://github.com/JGanson/raytrace-fluid/blob/main/Raytraced_Fluids_Paper.pdf
+# How to run:
+Example command: ./render --input ../assets/fluid-large.scene
+you can customized the scence by modifying the scene file
 
-Example command:
-./render --input ../assets/fluid-large.scene
+# environment install:
 
-you can customized the scence by modifying  the scene file
+Setup cmake: https://github.com/JGanson/raytrace-fluid/blob/main/Instruction_cmake.pdf
+setup openGL: https://github.com/JGanson/raytrace-fluid/blob/main/Instruction_openGL.pdf
