@@ -1,0 +1,15 @@
+model {
+    material diffuse-gray.mat
+
+    sphere -1 0 0 0.1
+    box 0.9 -0.1 -0.1 1.1 0.1 0.1
+}
+
+background_color 0.2 0.1 0.6
+
+PerspectiveCamera {
+  camera_position    < 5.3406, 2.02057, 5.92681 >
+  point_of_interest  < 1.3208, 0.388196, 0.955876 >
+  up                 < 0, 1, 0 >
+  angle              20
+}

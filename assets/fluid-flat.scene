@@ -1,0 +1,49 @@
+model {
+    material wood.mat
+    v 0.0 0.01 0.0
+    vt 0 1
+    v 0.0 0.01 1.0
+    vt 0 0
+    v 1.0 0.01 1.0
+    vt 1 0
+    v 1.0 0.01 0.0
+    vt 1 1
+    f 1 2 3 4
+}
+
+model {
+    material light-dim.mat
+    v -0.5 2.2 -0.5
+    v -0.5 2.2 0.5
+    v 0.5 2 -0.5
+    v 0.5 2 0.5
+    f 2 1 3 4
+}
+
+material liquid-blue.mat
+fluid {
+    grid 20 10 20
+    cell_dimensions 0.05 0.05 0.05
+    timestep 0.001
+
+    flow incompressible
+    xy_boundary free_slip
+    yz_boundary free_slip
+    zx_boundary free_slip
+    viscosity 0.005
+    gravity 1
+
+    initial_particles everywhere random
+    density 8
+
+    initial_velocity zero
+}
+
+background_color 0.9 0.8 0.7
+
+PerspectiveCamera {
+  camera_position    < 3, 5, 5 >
+  point_of_interest  < 0, 0, 0 > 
+  up                 < 0, 1, 0 >
+  angle              25
+}

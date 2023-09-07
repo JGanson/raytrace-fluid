@@ -1,0 +1,7 @@
+diffuse 0.0 0.0 0.7
+reflective 0.3 0.3 0.3
+roughness 0.0
+refractive 0.5 0.5 0.5
+index 1.5
+emitted 0 0 0
+specularExponent 5

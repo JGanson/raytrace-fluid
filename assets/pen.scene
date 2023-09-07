@@ -1,0 +1,4 @@
+model load pen.obj
+
+background_color 0.7 0.8 0.9
+

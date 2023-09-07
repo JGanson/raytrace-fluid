@@ -1,0 +1,33 @@
+model {
+    # the light source
+    material light.mat
+    v -7 10 7
+    v -7 10 3
+    v -3 10 3
+    v -3 10 7
+    f 1 2 3 4
+
+    # the floor
+    material diffuse-gray.mat
+    v -10 -1 -10
+    v -10 -1 10
+    v 10 -1 10
+    v 10 -1 -10
+    f 5 6 7 8
+
+    # the spheres
+    material metal-gray.mat
+    sphere 0.3 0 -1 1
+
+    material metal-red.mat
+    sphere -0.5 -0.6 0.2 0.4
+}
+
+background_color 0.2 0.1 0.6
+
+PerspectiveCamera {
+  camera_position    < 5.3406, 2.02057, 5.92681 >
+  point_of_interest  < 1.3208, 0.388196, 0.955876 >
+  up                 < 0, 1, 0 >
+  angle              20
+}

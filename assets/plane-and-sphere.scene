@@ -1,0 +1,25 @@
+model {
+    v -10.000000 -1.000000 -10.000000
+    vt 0 1
+    v -10.000000 -1.000000 10.000000
+    vt 0 0
+    v 10.000000 -1.000000 10.000000
+    vt 1 0
+    v 10.000000 -1.000000 -10.000000
+    vt 1 1
+
+    material wood.mat
+    f 1 2 3 4
+
+    material glass-1.mat
+    sphere 0.0 1.0 0.0 0.5
+}
+
+background_color 0.7 0.8 0.9
+
+PerspectiveCamera {
+  camera_position    < 12.5773, 13.8647, 34.6736 >
+  point_of_interest  < 1.52343, 1.85662, 0.165424 >
+  up                 < 0, 1, 0 >
+  angle              19.0
+}

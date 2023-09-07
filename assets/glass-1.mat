@@ -1,0 +1,6 @@
+diffuse 0 0 0
+reflective 0.0 0.0 0.0
+roughness 0.2
+refractive 0.95 0.95 0.95
+index 4
+emitted 0 0 0

@@ -1,0 +1,20 @@
+model {
+    material light-dim.mat
+    v -0.5 2.2 -0.5
+    v -0.5 2.2 0.5
+    v 0.5 2 -0.5
+    v 0.5 2 0.5
+    f 2 1 3 4
+}
+
+material diffuse-gray.mat
+model load bunny_40k.obj
+
+background_color 0.9 0.8 0.7
+
+PerspectiveCamera {
+  camera_position    < 3, 5, 5 >
+  point_of_interest  < 0, 0, 0 > 
+  up                 < 0, 1, 0 >
+  angle              25
+}
